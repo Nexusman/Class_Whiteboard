@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Ewert);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+body {
+  margin: 0;
+  padding: 100px;
+  box-sizing: border-box;
+  background-image: url("K6g10BB.jpg");
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.poster {
+  //display: flex;
+  width: 488px;
+  height: 640px;
+  background-color: lightgrey;
+
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  //flex-direction: column;
+}
+
+.poster h1 {
+  font-family: "Ewert";
+  color: #291200;
+  font-size: 44pt;
+  margin: 0;
+  font-weight: normal;
+}
+
+.poster h2 {
+  font-family: "ultra";
+  color: #291200;
+  font-size: 22pt;
+  margin: 0;
+  font-weight: normal;
+}
+
+#mugshot {
+  width: 300px;
+  height: 325px;
+  border: 2px solid;
+  border-color: #291200;
+  padding: 10px;
+  filter: sepia(60%);
+
+  text-align: center;
+  justify-content: center;
+}
+
+.subheading {
+  font-family: "ultra";
+  color: #291200;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.name {
+  font-family: "ultra";
+  color: #291200;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.description {
+  font-family: "ultra";
+  color: #291200;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+#price {
+  font-family: "ultra";
+  color: #291200;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 44px;
+  text-decoration: underline;
+}
