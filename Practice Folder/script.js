@@ -114,7 +114,7 @@ let nickName = "Jokers";
 
 document.write((firstName||lastName||nickName||'No name is given...'));
 */
-
+/*Office
 let nums = [6,8,7,3,4, 1];
 
 
@@ -123,6 +123,41 @@ for (num of nums){
 
 
 }
+*/
 
-console.log('not found'); 
-   
+/*
+let age = 94;
+if (age){
+    
+    let check = (age>=14&&age<=94);
+    console.log(check);
+}
+*/
+/*
+let login = prompt('PLease Enter Login!');
+
+if (login.length === 0){
+    console.log('canceled');
+
+  }
+  else if (login === "admin"){
+    let password = prompt('Please enter password');
+
+    if (password === 'TheMaster'){
+      console.log('Welcome');
+    }
+    else if(password.length === 0){
+      console.log('canceled');
+
+    }
+    else{
+      console.log('wrong Password')
+    }
+  
+  }
+  else{
+    console.log('I Dont Know you');
+  }
+  */
+
+  
