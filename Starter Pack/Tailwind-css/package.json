@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss ./src/styles.css -o ./public/styles.css",
+    "build": "tailwind build ./src/styles.css -o ./public/styles.css",
     "prod": "NODE_ENW=production postcss ./src/styles.css -o ./public/styles.css"
   },
   "keywords": [],
